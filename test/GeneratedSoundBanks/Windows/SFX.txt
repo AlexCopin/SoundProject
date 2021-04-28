@@ -2,7 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3817573795	Play_Bonus			\Default Work Unit\SFX\Play_Bonus	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	103002140	back_001	C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\.cache\Windows\SFX\back_001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_001		1761
-	105777131	back_003	C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\.cache\Windows\SFX\back_003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_003		2059
-	727550353	back_002	C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\.cache\Windows\SFX\back_002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_002		1883
+	103002140	back_001	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\back_001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_001		1761
+	105777131	back_003	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\back_003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_003		2059
+	727550353	back_002	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\back_002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_002		1883
 

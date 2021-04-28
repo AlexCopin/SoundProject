@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1618922875" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Virtual Acoustics\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Triggers\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\test.wproj" DateLow="1619008779" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\test.Julien.wsettings" DateLow="1619022880" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Switches\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\States\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\SoundBanks\Default Work Unit.wwu" DateLow="1619019952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Queries\Factory Queries.wwu" DateLow="1618922875" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Queries\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Presets\Factory Spatial Audio.wwu" DateLow="1618922875" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Presets\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Modulators\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Mixing Sessions\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Metadata\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1619013682" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1619014673" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Game Parameters\Default Work Unit.wwu" DateLow="1619014710" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Events\Default Work Unit.wwu" DateLow="1619021969" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Effects\Factory Effects.wwu" DateLow="1618922875" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Effects\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1618922875" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Conversion Settings\Default Work Unit.wwu" DateLow="1618927708" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Control Surface Sessions\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Audio Devices\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Attenuations\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1618922875" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1619020620" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1618922875" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\Virtual Acoustics\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\Triggers\Default Work Unit.wwu" DateLow="1618923191" DateHigh="0"/>

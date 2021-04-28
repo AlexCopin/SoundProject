@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
