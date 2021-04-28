@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\AUDIO\test\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="3321023726">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3817573795" Name="Play_Bonus" ObjectPath="\Events\Default Work Unit\SFX\Play_Bonus" DurationType="OneShot" DurationMin="0.068209" DurationMax="0.094331">
+					<IncludedMemoryFiles>
+						<File Id="103002140" Language="SFX">
+							<ShortName>back_001.wav</ShortName>
+							<Path>SFX\back_001_3F75BDB9.wem</Path>
+						</File>
+						<File Id="105777131" Language="SFX">
+							<ShortName>back_003.wav</ShortName>
+							<Path>SFX\back_003_3F75BDB9.wem</Path>
+						</File>
+						<File Id="727550353" Language="SFX">
+							<ShortName>back_002.wav</ShortName>
+							<Path>SFX\back_002_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="844364486">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1526447065" Name="User_RTPC_Master_Vol" ObjectPath="\Game Parameters\Default Work Unit\User\User_RTPC_Master_Vol"/>
+				<GameParameter Id="1818171992" Name="User_RTPC_Music_Vol" ObjectPath="\Game Parameters\Default Work Unit\User\User_RTPC_Music_Vol"/>
+				<GameParameter Id="3448240080" Name="User_RTPC_SFX_Vol" ObjectPath="\Game Parameters\Default Work Unit\User\User_RTPC_SFX_Vol"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="2037601529">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2432517998" Name="Event_Combat" ObjectPath="\Events\Default Work Unit\Music\Event_Combat" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3620253600" Name="Event_Explo" ObjectPath="\Events\Default Work Unit\Music\Event_Explo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2152580025" Name="Play_LVL_0" ObjectPath="\Events\Default Work Unit\Music\Play_LVL_0" DurationType="OneShot" DurationMin="331.475952" DurationMax="331.475952">
+					<IncludedMemoryFiles>
+						<File Id="83920018" Language="SFX">
+							<ShortName>Far Horizons.wav</ShortName>
+							<Path>SFX\Far Horizons_9EDFC787.wem</Path>
+						</File>
+						<File Id="1025279903" Language="SFX">
+							<ShortName>One They Fear.wav</ShortName>
+							<Path>SFX\One They Fear_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2647050347" Name="Stop_LVL_0" ObjectPath="\Events\Default Work Unit\Music\Stop_LVL_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1644986907" Name="RTPC_Combat" ObjectPath="\Game Parameters\Default Work Unit\Game\RTPC_Combat"/>
+				<GameParameter Id="3946516483" Name="RTPC_Explo" ObjectPath="\Game Parameters\Default Work Unit\Game\RTPC_Explo"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

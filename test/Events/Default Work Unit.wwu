@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FFA2B056-A42C-4406-A459-AC22F254DA55}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{FFA2B056-A42C-4406-A459-AC22F254DA55}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{92F3B993-8907-48F3-B048-F9F39DA86E81}" ShortID="284417110">
+					<ChildrenList>
+						<Event Name="Play_LVL_0" ID="{42FC15DA-1015-4F18-871B-5E070227D91D}">
+							<ChildrenList>
+								<Action Name="" ID="{4C9511D9-B6D6-49B3-841F-E5F2AED1C2BE}" ShortID="694634078">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_0" ID="{3EDB2EA6-9F52-4824-8337-0FE6EB1C8C17}" WorkUnitID="{D617487D-A169-4C18-B15E-3EBC4C2D225C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Combat" ID="{B7797198-AE08-497B-B6F3-89DEF01DA59B}">
+							<ChildrenList>
+								<Action Name="" ID="{7B32B0EA-BFA5-4288-8D1F-5972DD17F749}" ShortID="422985192">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTPC_Combat" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{51EB5D37-EEBF-41BF-A988-9E6C4A92F04A}" ShortID="543533321">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTPC_Explo" ID="{C9ADDA66-E205-4927-8441-B1F8F861BA18}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Explo" ID="{AAF2562F-F720-4D2A-9C06-EBF9E84407B6}">
+							<ChildrenList>
+								<Action Name="" ID="{90228833-BAD4-46D7-A32A-F9BCFB0615EF}" ShortID="951826317">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTPC_Explo" ID="{C9ADDA66-E205-4927-8441-B1F8F861BA18}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AA351F8B-1507-4293-B19A-58A70EDD65B4}" ShortID="822547463">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTPC_Combat" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_LVL_0" ID="{B9554296-2A4F-4510-8EE1-AC117DFCA656}">
+							<ChildrenList>
+								<Action Name="" ID="{13C9DD0F-B4F1-421F-8490-25E64E1241B0}" ShortID="297629937">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_0" ID="{3EDB2EA6-9F52-4824-8337-0FE6EB1C8C17}" WorkUnitID="{D617487D-A169-4C18-B15E-3EBC4C2D225C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{C641ED22-E961-49B5-8E0A-9233747F3F87}" ShortID="640858324">
+					<ChildrenList>
+						<Event Name="Play_Bonus" ID="{134E780C-7ABF-4F55-BE1E-2140C0B40FF1}">
+							<ChildrenList>
+								<Action Name="" ID="{D35C90FA-4B20-4FF7-8C6E-8FD963B32C4C}" ShortID="775724347">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Bonus" ID="{EB516579-48C3-4C80-907C-955DDE2AA933}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="User" ID="{39D20117-A2BA-49B3-8733-DF44123E3C1F}" ShortID="123914332">
+					<ChildrenList>
+						<GameParameter Name="User_RTPC_SFX_Vol" ID="{BF632FA8-9C33-46AA-8331-B3E54A34DD82}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="User_RTPC_Music_Vol" ID="{1090F815-4FE7-4A69-B5DE-0317DA2EDAD2}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="User_RTPC_Master_Vol" ID="{CC6AF38B-FBA2-4090-991A-16A10D2B1541}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Game" ID="{60A80611-76B3-4767-9A1C-26244B4854FE}" ShortID="152860328">
+					<ChildrenList>
+						<GameParameter Name="RTPC_Combat" ID="{2875E575-FCB2-473B-815E-22AF87F37136}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_Explo" ID="{C9ADDA66-E205-4927-8441-B1F8F861BA18}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
