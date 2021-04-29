@@ -1,8 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
+	114860420	Play_Cartoon			\Default Work Unit\SFX\Play_Cartoon	
+	324646143	Play_Defeat			\Default Work Unit\SFX\Play_Defeat	
+	2453267296	Play_Victory			\Default Work Unit\SFX\Play_Victory	
+	2953849999	Play_Radio			\Default Work Unit\SFX\Play_Radio	
 	3817573795	Play_Bonus			\Default Work Unit\SFX\Play_Bonus	
+	4269137384	Play_Monster			\Default Work Unit\SFX\Play_Monster	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	103002140	back_001	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\back_001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_001		1761
-	105777131	back_003	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\back_003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_003		2059
-	727550353	back_002	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\back_002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_002		1883
+	27186117	voiceRadio01	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\voiceRadio01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Radio\voiceRadio01		58729
+	86699132	cartoonSound02	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\cartoonSound02_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Cartoon\cartoonSound02		30552
+	103002140	back_001	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\back_001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_001		1761
+	105777131	back_003	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\back_003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_003		2059
+	120484710	voiceRadio06	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\voiceRadio06_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Radio\voiceRadio06		26435
+	325849783	MonsterNoise01	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\MonsterNoise01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Monster\MonsterNoise01		26537
+	575202786	Victory_Song	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\Victory_Song_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Victory\Victory_Song		57810
+	610748932	MonsterNoise03	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\MonsterNoise03_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Monster\MonsterNoise03		74444
+	610831112	voiceRadio04	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\voiceRadio04_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Radio\voiceRadio04		37028
+	645490898	cartoonSound03	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\cartoonSound03_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Cartoon\cartoonSound03		37153
+	723383607	voiceRadio05	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\voiceRadio05_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Radio\voiceRadio05		24506
+	727550353	back_002	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\back_002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Bonus\back_002		1883
+	828180770	Sound_Loss	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\Sound_Loss_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Defeat\Sound_Loss		108833
+	967628008	voiceRadio02	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\voiceRadio02_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Radio\voiceRadio02		31412
+	1012701098	MonsterNoise02	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\MonsterNoise02_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Monster\MonsterNoise02		33932
+	1053380918	voiceRadio03	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\voiceRadio03_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Radio\voiceRadio03		41978
+	1067719737	cartoonSound	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\cartoonSound_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Cartoon\cartoonSound		25908
 

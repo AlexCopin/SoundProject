@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Alex\UnityProject\SoundProject\test\</ProjectRoot>
+		<SourceFilesRoot>D:\Alex\UnityProject\SoundProject\test\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Alex\UnityProject\SoundProject\test\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Alex\UnityProject\SoundProject\test\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3321023726">
+		<SoundBank Id="393239870" Language="SFX" Hash="1173983346">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -32,9 +32,85 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="114860420" Name="Play_Cartoon" ObjectPath="\Events\Default Work Unit\SFX\Play_Cartoon" DurationType="OneShot" DurationMin="2.279070" DurationMax="3.236893">
+					<IncludedMemoryFiles>
+						<File Id="86699132" Language="SFX">
+							<ShortName>cartoonSound02.wav</ShortName>
+							<Path>SFX\cartoonSound02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="645490898" Language="SFX">
+							<ShortName>cartoonSound03.wav</ShortName>
+							<Path>SFX\cartoonSound03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1067719737" Language="SFX">
+							<ShortName>cartoonSound.wav</ShortName>
+							<Path>SFX\cartoonSound_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="324646143" Name="Play_Defeat" ObjectPath="\Events\Default Work Unit\SFX\Play_Defeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<IncludedMemoryFiles>
+						<File Id="828180770" Language="SFX">
+							<ShortName>Sound_Loss.wav</ShortName>
+							<Path>SFX\Sound_Loss_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4269137384" Name="Play_Monster" ObjectPath="\Events\Default Work Unit\SFX\Play_Monster" DurationType="OneShot" DurationMin="1.916440" DurationMax="5.756531">
+					<IncludedMemoryFiles>
+						<File Id="325849783" Language="SFX">
+							<ShortName>MonsterNoise01.wav</ShortName>
+							<Path>SFX\MonsterNoise01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="610748932" Language="SFX">
+							<ShortName>MonsterNoise03.wav</ShortName>
+							<Path>SFX\MonsterNoise03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1012701098" Language="SFX">
+							<ShortName>MonsterNoise02.wav</ShortName>
+							<Path>SFX\MonsterNoise02_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2953849999" Name="Play_Radio" ObjectPath="\Events\Default Work Unit\SFX\Play_Radio" DurationType="OneShot" DurationMin="2.008526" DurationMax="5.152540">
+					<IncludedMemoryFiles>
+						<File Id="27186117" Language="SFX">
+							<ShortName>voiceRadio01.wav</ShortName>
+							<Path>SFX\voiceRadio01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="120484710" Language="SFX">
+							<ShortName>voiceRadio06.wav</ShortName>
+							<Path>SFX\voiceRadio06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="610831112" Language="SFX">
+							<ShortName>voiceRadio04.wav</ShortName>
+							<Path>SFX\voiceRadio04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="723383607" Language="SFX">
+							<ShortName>voiceRadio05.wav</ShortName>
+							<Path>SFX\voiceRadio05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="967628008" Language="SFX">
+							<ShortName>voiceRadio02.wav</ShortName>
+							<Path>SFX\voiceRadio02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1053380918" Language="SFX">
+							<ShortName>voiceRadio03.wav</ShortName>
+							<Path>SFX\voiceRadio03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2453267296" Name="Play_Victory" ObjectPath="\Events\Default Work Unit\SFX\Play_Victory" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<IncludedMemoryFiles>
+						<File Id="575202786" Language="SFX">
+							<ShortName>Victory_Song.wav</ShortName>
+							<Path>SFX\Victory_Song_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="844364486">
+		<SoundBank Id="1355168291" Language="SFX" Hash="928077527">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -44,13 +120,13 @@
 				<GameParameter Id="3448240080" Name="User_RTPC_SFX_Vol" ObjectPath="\Game Parameters\Default Work Unit\User\User_RTPC_SFX_Vol"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="2037601529">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1394263034">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2432517998" Name="Event_Combat" ObjectPath="\Events\Default Work Unit\Music\Event_Combat" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3620253600" Name="Event_Explo" ObjectPath="\Events\Default Work Unit\Music\Event_Explo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="829652372" Name="Event_Tension" ObjectPath="\Events\Default Work Unit\Music\Event_Tension" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2152580025" Name="Play_LVL_0" ObjectPath="\Events\Default Work Unit\Music\Play_LVL_0" DurationType="OneShot" DurationMin="331.475952" DurationMax="331.475952">
 					<IncludedMemoryFiles>
 						<File Id="83920018" Language="SFX">
@@ -66,7 +142,7 @@
 				<Event Id="2647050347" Name="Stop_LVL_0" ObjectPath="\Events\Default Work Unit\Music\Stop_LVL_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
-				<GameParameter Id="1644986907" Name="RTPC_Combat" ObjectPath="\Game Parameters\Default Work Unit\Game\RTPC_Combat"/>
+				<GameParameter Id="2122627167" Name="RTPC_Tension" ObjectPath="\Game Parameters\Default Work Unit\Game\RTPC_Tension"/>
 				<GameParameter Id="3946516483" Name="RTPC_Explo" ObjectPath="\Game Parameters\Default Work Unit\Game\RTPC_Explo"/>
 			</GameParameters>
 		</SoundBank>

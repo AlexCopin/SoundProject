@@ -1,14 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
+	829652372	Event_Tension			\Default Work Unit\Music\Event_Tension	
 	2152580025	Play_LVL_0			\Default Work Unit\Music\Play_LVL_0	
-	2432517998	Event_Combat			\Default Work Unit\Music\Event_Combat	
 	2647050347	Stop_LVL_0			\Default Work Unit\Music\Stop_LVL_0	
 	3620253600	Event_Explo			\Default Work Unit\Music\Event_Explo	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	1644986907	RTPC_Combat			\Default Work Unit\Game\RTPC_Combat	
+	2122627167	RTPC_Tension			\Default Work Unit\Game\RTPC_Tension	
 	3946516483	RTPC_Explo			\Default Work Unit\Game\RTPC_Explo	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	83920018	L_Explo	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\Far Horizons_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Explo		4955649
-	1025279903	L_Combat	C:\Users\Julien QUENTIN\Documents\IIM\A2\SoundProject\test\.cache\Windows\SFX\One They Fear_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Combat		3126673
+	83920018	L_Explo	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\Far Horizons_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Explo		4955649
+	1025279903	L_Combat	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\One They Fear_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Combat		3126673
 

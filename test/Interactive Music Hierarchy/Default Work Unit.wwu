@@ -114,7 +114,7 @@
 												<RTPC Name="" ID="{1A8B3744-EA7D-4957-B876-1EB863DDBC6C}" ShortID="814651085">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="RTPC_Combat" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
+															<ObjectRef Name="RTPC_Tension" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
 														</Reference>
 													</ReferenceList>
 													<Curve Name="" ID="{05D92A75-05D5-4FF3-8A6D-7ED7047B9E6E}">

@@ -17,13 +17,13 @@ class UI : MonoBehaviour
     {
         AkSoundEngine.SetRTPCValue("User_RTPC_SFX_Vol", sfxVol.value * volFactor);
     }
-    public void ChangeMusicExplo()
+    public void SetExplo()
     {
         AkSoundEngine.PostEvent("Event_Explo", gameObject);
     }
-    public void ChangeMusicCombat()
+    public void SetTension()
     {
-        AkSoundEngine.PostEvent("Event_Combat", gameObject);
+        AkSoundEngine.PostEvent("Event_Tension", gameObject);
     }
     public void PlayMusic()
     {
@@ -33,8 +33,28 @@ class UI : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Stop_LVL_0", gameObject);
     }
+    public void PlayVictory()
+    {
+        AkSoundEngine.PostEvent("Play_Defeat", gameObject);
+    }
+    public void PlayDefeat()
+    {
+        AkSoundEngine.PostEvent("Play_Victory", gameObject);
+    }
     public void PlayBonusSFX()
     {
         AkSoundEngine.PostEvent("Play_Bonus", gameObject);
+    }
+    public void PlayRadioSFX()
+    {
+        AkSoundEngine.PostEvent("Play_Radio", gameObject);
+    }
+    public void PlayCartoonSFX()
+    {
+        AkSoundEngine.PostEvent("Play_Cartoon", gameObject);
+    }
+    public void PlayMonsterSFX()
+    {
+        AkSoundEngine.PostEvent("Play_Monster", gameObject);
     }
 }

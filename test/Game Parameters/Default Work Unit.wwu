@@ -24,10 +24,12 @@
 				</Folder>
 				<Folder Name="Game" ID="{60A80611-76B3-4767-9A1C-26244B4854FE}" ShortID="152860328">
 					<ChildrenList>
-						<GameParameter Name="RTPC_Combat" ID="{2875E575-FCB2-473B-815E-22AF87F37136}">
+						<GameParameter Name="RTPC_Tension" ID="{2875E575-FCB2-473B-815E-22AF87F37136}">
 							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
 								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="RTPC_Explo" ID="{C9ADDA66-E205-4927-8441-B1F8F861BA18}">

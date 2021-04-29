@@ -8,6 +8,9 @@
 						<Event Name="Play_LVL_0" ID="{42FC15DA-1015-4F18-871B-5E070227D91D}">
 							<ChildrenList>
 								<Action Name="" ID="{4C9511D9-B6D6-49B3-841F-E5F2AED1C2BE}" ShortID="694634078">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="LVL_0" ID="{3EDB2EA6-9F52-4824-8337-0FE6EB1C8C17}" WorkUnitID="{D617487D-A169-4C18-B15E-3EBC4C2D225C}"/>
@@ -16,26 +19,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Event_Combat" ID="{B7797198-AE08-497B-B6F3-89DEF01DA59B}">
+						<Event Name="Event_Tension" ID="{B7797198-AE08-497B-B6F3-89DEF01DA59B}">
 							<ChildrenList>
 								<Action Name="" ID="{7B32B0EA-BFA5-4288-8D1F-5972DD17F749}" ShortID="422985192">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="RTPC_Combat" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{51EB5D37-EEBF-41BF-A988-9E6C4A92F04A}" ShortID="543533321">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="RTPC_Explo" ID="{C9ADDA66-E205-4927-8441-B1F8F861BA18}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
+											<ObjectRef Name="RTPC_Tension" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -43,24 +37,14 @@
 						</Event>
 						<Event Name="Event_Explo" ID="{AAF2562F-F720-4D2A-9C06-EBF9E84407B6}">
 							<ChildrenList>
-								<Action Name="" ID="{90228833-BAD4-46D7-A32A-F9BCFB0615EF}" ShortID="951826317">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="RTPC_Explo" ID="{C9ADDA66-E205-4927-8441-B1F8F861BA18}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{AA351F8B-1507-4293-B19A-58A70EDD65B4}" ShortID="822547463">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="RTPC_Combat" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
+											<ObjectRef Name="RTPC_Tension" ID="{2875E575-FCB2-473B-815E-22AF87F37136}" WorkUnitID="{7CDDD0A1-F92D-4BA7-A13A-4A20BC5A836A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -71,6 +55,7 @@
 								<Action Name="" ID="{13C9DD0F-B4F1-421F-8490-25E64E1241B0}" ShortID="297629937">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -90,6 +75,76 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_Bonus" ID="{EB516579-48C3-4C80-907C-955DDE2AA933}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Monster" ID="{672C3F91-2AFC-414E-BCD3-4479F0DA076F}">
+							<ChildrenList>
+								<Action Name="" ID="{CFE8F986-19A8-4D09-9F40-C1BCC7B3D38D}" ShortID="362553872">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Monster" ID="{D1739B59-FD12-4430-815D-6ACC8030A812}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cartoon" ID="{6E451D95-7823-4E35-886F-11D8A424FB7F}">
+							<ChildrenList>
+								<Action Name="" ID="{F99D489C-ECEE-48B6-9016-DA445613E1FC}" ShortID="1008881897">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Cartoon" ID="{6BE899F5-4EDC-4509-9EBE-1102B80D58B2}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Radio" ID="{28AC8FFD-0C23-4C27-9D9A-FF94A620B6CC}">
+							<ChildrenList>
+								<Action Name="" ID="{0E7E65D3-23E7-42E4-88B2-5896695E63C7}" ShortID="385379329">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Radio" ID="{25BDAB69-5BD2-4542-BC1E-CB0D80243CFB}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Victory" ID="{B471DFD0-31E4-4A1D-B2E3-3CE41DE52F01}">
+							<ChildrenList>
+								<Action Name="" ID="{A487F70C-CF6A-4FCD-BCBC-BC7D40A499CB}" ShortID="487509045">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Victory" ID="{A1ACB3F9-5475-4389-B114-EAA32453DEB2}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Defeat" ID="{C60C3802-50FD-45A9-8E78-E0F06E76D689}">
+							<ChildrenList>
+								<Action Name="" ID="{33C8C52B-D480-4515-8428-D7FD2B5D0C4D}" ShortID="779577073">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Defeat" ID="{6A790BE6-DFFF-4820-8507-E3DF70FDE02F}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

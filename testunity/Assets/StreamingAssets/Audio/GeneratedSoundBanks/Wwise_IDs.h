@@ -13,17 +13,22 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID EVENT_COMBAT = 2432517998U;
         static const AkUniqueID EVENT_EXPLO = 3620253600U;
+        static const AkUniqueID EVENT_TENSION = 829652372U;
         static const AkUniqueID PLAY_BONUS = 3817573795U;
+        static const AkUniqueID PLAY_CARTOON = 114860420U;
+        static const AkUniqueID PLAY_DEFEAT = 324646143U;
         static const AkUniqueID PLAY_LVL_0 = 2152580025U;
+        static const AkUniqueID PLAY_MONSTER = 4269137384U;
+        static const AkUniqueID PLAY_RADIO = 2953849999U;
+        static const AkUniqueID PLAY_VICTORY = 2453267296U;
         static const AkUniqueID STOP_LVL_0 = 2647050347U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID RTPC_COMBAT = 1644986907U;
         static const AkUniqueID RTPC_EXPLO = 3946516483U;
+        static const AkUniqueID RTPC_TENSION = 2122627167U;
         static const AkUniqueID USER_RTPC_MASTER_VOL = 1526447065U;
         static const AkUniqueID USER_RTPC_MUSIC_VOL = 1818171992U;
         static const AkUniqueID USER_RTPC_SFX_VOL = 3448240080U;

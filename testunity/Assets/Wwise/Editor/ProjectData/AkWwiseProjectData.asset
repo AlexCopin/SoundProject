@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 4cab1f10c9054a45a632ed0845ef631a
     GuidInternal: 
-    m_lastTime: -8585826836937044704
+    m_lastTime: -8585819630277437693
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585826840097171140
+    m_lastTime: -8585819630277417857
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 80002f5a3196c7448e35ccd5ea422c6c
     GuidInternal: 
-    m_lastTime: -8585825932034197685
+    m_lastTime: -8585819630283361938
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -365,7 +365,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6e41785811859842935cef8f8d7a3624
     GuidInternal: 
-    m_lastTime: -8585825869331641224
+    m_lastTime: -8585819630277537536
     List:
     - name: Music
       guid: e0bed74905ff914882d8c053b2a605de
@@ -407,28 +407,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 56b0a2ff2ca40644a459ac22f254da55
     GuidInternal: 
-    m_lastTime: -8585825849160978897
+    m_lastTime: -8585819162210035829
     List:
-    - name: Event_Combat
-      guid: 987179b708ae7b49b6f389def01da59b
-      id: 2432517998
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 56b0a2ff2ca40644a459ac22f254da55
-      - ElementName: Music
-        ObjectType: 4
-        guid: 93b9f3920789f348b048f9f39da86e81
-      - ElementName: Event_Combat
-        ObjectType: 3
-        guid: 987179b708ae7b49b6f389def01da59b
-      Path: Events\Default Work Unit\Music\Event_Combat
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Event_Explo
       guid: 2f56f2aa20f72a4d9c06ebf9e84407b6
       id: 3620253600
@@ -446,6 +426,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2f56f2aa20f72a4d9c06ebf9e84407b6
       Path: Events\Default Work Unit\Music\Event_Explo
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Event_Tension
+      guid: 987179b708ae7b49b6f389def01da59b
+      id: 829652372
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56b0a2ff2ca40644a459ac22f254da55
+      - ElementName: Music
+        ObjectType: 4
+        guid: 93b9f3920789f348b048f9f39da86e81
+      - ElementName: Event_Tension
+        ObjectType: 3
+        guid: 987179b708ae7b49b6f389def01da59b
+      Path: Events\Default Work Unit\Music\Event_Tension
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -486,6 +486,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Cartoon
+      guid: 951d456e2378354e886f11d8a424fb7f
+      id: 114860420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56b0a2ff2ca40644a459ac22f254da55
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 22ed41c661e9b5498e0a9233747f3f87
+      - ElementName: Play_Cartoon
+        ObjectType: 3
+        guid: 951d456e2378354e886f11d8a424fb7f
+      Path: Events\Default Work Unit\SFX\Play_Cartoon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Defeat
+      guid: 02380cc6fd50a9458e78e0f06e76d689
+      id: 324646143
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56b0a2ff2ca40644a459ac22f254da55
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 22ed41c661e9b5498e0a9233747f3f87
+      - ElementName: Play_Defeat
+        ObjectType: 3
+        guid: 02380cc6fd50a9458e78e0f06e76d689
+      Path: Events\Default Work Unit\SFX\Play_Defeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_LVL_0
       guid: da15fc421510184f871b5e070227d91d
       id: 2152580025
@@ -503,6 +543,66 @@ MonoBehaviour:
         ObjectType: 3
         guid: da15fc421510184f871b5e070227d91d
       Path: Events\Default Work Unit\Music\Play_LVL_0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Monster
+      guid: 913f2c67fc2a4e41bcd34479f0da076f
+      id: 4269137384
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56b0a2ff2ca40644a459ac22f254da55
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 22ed41c661e9b5498e0a9233747f3f87
+      - ElementName: Play_Monster
+        ObjectType: 3
+        guid: 913f2c67fc2a4e41bcd34479f0da076f
+      Path: Events\Default Work Unit\SFX\Play_Monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Radio
+      guid: fd8fac28230c274c9d9aff94a620b6cc
+      id: 2953849999
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56b0a2ff2ca40644a459ac22f254da55
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 22ed41c661e9b5498e0a9233747f3f87
+      - ElementName: Play_Radio
+        ObjectType: 3
+        guid: fd8fac28230c274c9d9aff94a620b6cc
+      Path: Events\Default Work Unit\SFX\Play_Radio
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Victory
+      guid: d0df71b4e4311d4ab2e33ce41de52f01
+      id: 2453267296
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56b0a2ff2ca40644a459ac22f254da55
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 22ed41c661e9b5498e0a9233747f3f87
+      - ElementName: Play_Victory
+        ObjectType: 3
+        guid: d0df71b4e4311d4ab2e33ce41de52f01
+      Path: Events\Default Work Unit\SFX\Play_Victory
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -555,7 +655,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: a1d0dd7c2df9a74ba13a4a20bc5a836a
     GuidInternal: 
-    m_lastTime: -8585825921754585794
+    m_lastTime: -8585819616266360240
     List:
     - name: Game
       guid: 1106a860b37667479a1c26244b4854fe
@@ -571,23 +671,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: 1106a860b37667479a1c26244b4854fe
       Path: Game Parameters\Default Work Unit\Game
-    - name: RTPC_Combat
-      guid: 75e57528b2fc3b47815e22af87f37136
-      id: 1644986907
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a1d0dd7c2df9a74ba13a4a20bc5a836a
-      - ElementName: Game
-        ObjectType: 4
-        guid: 1106a860b37667479a1c26244b4854fe
-      - ElementName: RTPC_Combat
-        ObjectType: 13
-        guid: 75e57528b2fc3b47815e22af87f37136
-      Path: Game Parameters\Default Work Unit\Game\RTPC_Combat
     - name: RTPC_Explo
       guid: 66daadc905e227498441b1f8f861ba18
       id: 3946516483
@@ -605,6 +688,23 @@ MonoBehaviour:
         ObjectType: 13
         guid: 66daadc905e227498441b1f8f861ba18
       Path: Game Parameters\Default Work Unit\Game\RTPC_Explo
+    - name: RTPC_Tension
+      guid: 75e57528b2fc3b47815e22af87f37136
+      id: 2122627167
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a1d0dd7c2df9a74ba13a4a20bc5a836a
+      - ElementName: Game
+        ObjectType: 4
+        guid: 1106a860b37667479a1c26244b4854fe
+      - ElementName: RTPC_Tension
+        ObjectType: 13
+        guid: 75e57528b2fc3b47815e22af87f37136
+      Path: Game Parameters\Default Work Unit\Game\RTPC_Tension
     - name: User
       guid: 1701d239baa2b3498733df44123e3c1f
       id: 1303565252
@@ -682,7 +782,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 7742362b4660c14b8f384b7ce674d591
     GuidInternal: 
-    m_lastTime: -8585826836938037611
+    m_lastTime: -8585819630277527549
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -696,7 +796,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: eead87f129e2a848a3d3ec0c40ba6f0d
     GuidInternal: 
-    m_lastTime: -8585826836938137223
+    m_lastTime: -8585819630277457678
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -710,7 +810,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 8db38279bfedf0478059546dde87ecb6
     GuidInternal: 
-    m_lastTime: -8585826836938456476
+    m_lastTime: -8585819630277417857
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 010000000500000006000000070000000b0000000c0000000d000000
