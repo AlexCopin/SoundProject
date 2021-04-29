@@ -101,86 +101,6 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="SFX_Victory" ID="{A1ACB3F9-5475-4389-B114-EAA32453DEB2}" ShortID="192987562">
-							<PropertyList>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{216BEC0D-8FF4-43B8-AC77-FFA7D9E3E79F}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Victory_Song" ID="{6D81B1A3-912C-4D36-848F-706C96642947}" ShortID="230241178">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Victory_Song" ID="{4EC475C3-4049-4C52-8B83-4CE51717053A}">
-											<Language>SFX</Language>
-											<AudioFile>Victory_Song.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="575202786"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Victory_Song" ID="{4EC475C3-4049-4C52-8B83-4CE51717053A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="SFX_Defeat" ID="{6A790BE6-DFFF-4820-8507-E3DF70FDE02F}" ShortID="611984435">
-							<PropertyList>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{216BEC0D-8FF4-43B8-AC77-FFA7D9E3E79F}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Sound_Loss" ID="{140DD58A-7FF2-419A-BA27-4999F7908FC1}" ShortID="418266918">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Sound_Loss" ID="{98A5E5CF-E181-4FB2-BEE0-45F56E79409B}">
-											<Language>SFX</Language>
-											<AudioFile>Sound_Loss.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="828180770"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Sound_Loss" ID="{98A5E5CF-E181-4FB2-BEE0-45F56E79409B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SFX_Monster" ID="{D1739B59-FD12-4430-815D-6ACC8030A812}" ShortID="77797890">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -500,6 +420,84 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="voiceRadio06" ID="{074CD2BF-1DDB-4321-95B8-AEBF63E29B4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_Victory" ID="{A9BE9DBB-A171-430A-966F-AE2F294009D0}" ShortID="367715704">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{216BEC0D-8FF4-43B8-AC77-FFA7D9E3E79F}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Victory_Song" ID="{F73EE172-10AE-49FD-B682-51FEDA2FDBF0}" ShortID="317227849">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Victory_Song" ID="{08506183-35D3-4028-BD0D-D5A4E37604B1}">
+											<Language>SFX</Language>
+											<AudioFile>Victory_Song.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="575202786"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Victory_Song" ID="{08506183-35D3-4028-BD0D-D5A4E37604B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_Defeat" ID="{E53DB852-72F2-4259-B339-3D59CABE443E}" ShortID="453995414">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{216BEC0D-8FF4-43B8-AC77-FFA7D9E3E79F}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sound_Loss" ID="{A42BB15E-B336-41A5-BC9A-BD9564D62C0B}" ShortID="822710361">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46F78E5D-3553-4CDA-A8FC-B43741A8E0C9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A2F0080-9631-44C7-8E35-CCD5EA422C6C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sound_Loss" ID="{2CD7E252-8360-43CB-A662-21F18662A6AA}">
+											<Language>SFX</Language>
+											<AudioFile>Sound_Loss.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="828180770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Sound_Loss" ID="{2CD7E252-8360-43CB-A662-21F18662A6AA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

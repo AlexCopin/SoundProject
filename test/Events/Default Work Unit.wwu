@@ -126,11 +126,22 @@
 							<ChildrenList>
 								<Action Name="" ID="{A487F70C-CF6A-4FCD-BCBC-BC7D40A499CB}" ShortID="487509045">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_Victory" ID="{A1ACB3F9-5475-4389-B114-EAA32453DEB2}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+											<ObjectRef Name="SFX_Victory" ID="{A9BE9DBB-A171-430A-966F-AE2F294009D0}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{65EF9D29-6C20-48BE-A68D-D2C9638D9BE0}" ShortID="293008904">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_0" ID="{3EDB2EA6-9F52-4824-8337-0FE6EB1C8C17}" WorkUnitID="{D617487D-A169-4C18-B15E-3EBC4C2D225C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -140,11 +151,22 @@
 							<ChildrenList>
 								<Action Name="" ID="{33C8C52B-D480-4515-8428-D7FD2B5D0C4D}" ShortID="779577073">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_Defeat" ID="{6A790BE6-DFFF-4820-8507-E3DF70FDE02F}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+											<ObjectRef Name="SFX_Defeat" ID="{E53DB852-72F2-4259-B339-3D59CABE443E}" WorkUnitID="{D8A6BA90-3A54-4E86-AACA-AD625051C400}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E963F09A-5492-4932-A8FF-FCDA5D199C87}" ShortID="47997008">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_0" ID="{3EDB2EA6-9F52-4824-8337-0FE6EB1C8C17}" WorkUnitID="{D617487D-A169-4C18-B15E-3EBC4C2D225C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -4,7 +4,7 @@
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Virtual Acoustics\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Triggers\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\test.wproj" DateLow="1619643857" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\test.alexc.wsettings" DateLow="1619690047" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\test.alexc.wsettings" DateLow="1619694204" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Switches\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\States\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
@@ -17,9 +17,9 @@
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Mixing Sessions\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Metadata\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1619690044" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Game Parameters\Default Work Unit.wwu" DateLow="1619645258" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Events\Default Work Unit.wwu" DateLow="1619690664" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1619722891" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Game Parameters\Default Work Unit.wwu" DateLow="1619693927" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Events\Default Work Unit.wwu" DateLow="1619724261" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Effects\Factory Effects.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Effects\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
@@ -29,5 +29,5 @@
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Audio Devices\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Attenuations\Default Work Unit.wwu" DateLow="1619643857" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1619643857" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1619688116" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Alex\UnityProject\SoundProject\test\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1619723808" DateHigh="0"/>
 </ValidationCache>

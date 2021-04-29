@@ -9,6 +9,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3946516483	RTPC_Explo			\Default Work Unit\Game\RTPC_Explo	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	83920018	L_Explo	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\Far Horizons_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Explo		4955649
-	1025279903	L_Combat	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\One They Fear_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Combat		3126673
+	950024152	L_Combat	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\Music_Tension_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Combat		187490
+	965849480	L_Explo	D:\Alex\UnityProject\SoundProject\test\.cache\Windows\SFX\Music_Explo_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LVL_0\LVL_0\L_Explo		171803
 

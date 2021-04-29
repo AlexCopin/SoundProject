@@ -35,11 +35,11 @@ class UI : MonoBehaviour
     }
     public void PlayVictory()
     {
-        AkSoundEngine.PostEvent("Play_Defeat", gameObject);
+        AkSoundEngine.PostEvent("Play_Victory", gameObject);
     }
     public void PlayDefeat()
     {
-        AkSoundEngine.PostEvent("Play_Victory", gameObject);
+        AkSoundEngine.PostEvent("Play_Defeat", gameObject);
     }
     public void PlayBonusSFX()
     {

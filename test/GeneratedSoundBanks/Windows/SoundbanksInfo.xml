@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1173983346">
+		<SoundBank Id="393239870" Language="SFX" Hash="3861284881">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -48,7 +48,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="324646143" Name="Play_Defeat" ObjectPath="\Events\Default Work Unit\SFX\Play_Defeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="324646143" Name="Play_Defeat" ObjectPath="\Events\Default Work Unit\SFX\Play_Defeat" DurationType="OneShot" DurationMin="7.053061" DurationMax="7.053061">
 					<IncludedMemoryFiles>
 						<File Id="828180770" Language="SFX">
 							<ShortName>Sound_Loss.wav</ShortName>
@@ -100,7 +100,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2453267296" Name="Play_Victory" ObjectPath="\Events\Default Work Unit\SFX\Play_Victory" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="2453267296" Name="Play_Victory" ObjectPath="\Events\Default Work Unit\SFX\Play_Victory" DurationType="OneShot" DurationMin="7.549500" DurationMax="7.549500">
 					<IncludedMemoryFiles>
 						<File Id="575202786" Language="SFX">
 							<ShortName>Victory_Song.wav</ShortName>
@@ -110,7 +110,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="928077527">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2721287770">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -120,22 +120,22 @@
 				<GameParameter Id="3448240080" Name="User_RTPC_SFX_Vol" ObjectPath="\Game Parameters\Default Work Unit\User\User_RTPC_SFX_Vol"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1394263034">
+		<SoundBank Id="3991942870" Language="SFX" Hash="118798004">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3620253600" Name="Event_Explo" ObjectPath="\Events\Default Work Unit\Music\Event_Explo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="829652372" Name="Event_Tension" ObjectPath="\Events\Default Work Unit\Music\Event_Tension" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2152580025" Name="Play_LVL_0" ObjectPath="\Events\Default Work Unit\Music\Play_LVL_0" DurationType="OneShot" DurationMin="331.475952" DurationMax="331.475952">
+				<Event Id="2152580025" Name="Play_LVL_0" ObjectPath="\Events\Default Work Unit\Music\Play_LVL_0" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="83920018" Language="SFX">
-							<ShortName>Far Horizons.wav</ShortName>
-							<Path>SFX\Far Horizons_9EDFC787.wem</Path>
+						<File Id="950024152" Language="SFX">
+							<ShortName>Music_Tension.wav</ShortName>
+							<Path>SFX\Music_Tension_9EDFC787.wem</Path>
 						</File>
-						<File Id="1025279903" Language="SFX">
-							<ShortName>One They Fear.wav</ShortName>
-							<Path>SFX\One They Fear_9EDFC787.wem</Path>
+						<File Id="965849480" Language="SFX">
+							<ShortName>Music_Explo.wav</ShortName>
+							<Path>SFX\Music_Explo_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
